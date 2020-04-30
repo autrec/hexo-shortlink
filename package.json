@@ -1,0 +1,27 @@
+{
+  "name": "hexo-shortlink",
+  "version": "1.0.0",
+  "description": "hexo short link",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autrec/hexo-shortlink.git"
+  },
+  "keywords": [
+    "hexo",
+    "short",
+    "link"
+  ],
+  "author": "autre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autrec/hexo-shortlink/issues"
+  },
+  "homepage": "https://github.com/autrec/hexo-shortlink#readme"
+}
