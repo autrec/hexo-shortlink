@@ -1,4 +1,4 @@
-# hexo-shortlink
+# [hexo-shortlink](https://iout.io/open/hexoshortlink)
 
 A Hexo plugin for generate static post link based on post file name.
 
