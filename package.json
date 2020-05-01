@@ -1,7 +1,7 @@
 {
   "name": "hexo-shortlink",
   "version": "1.0.0",
-  "description": "hexo short link",
+  "description": "short link for hexo",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -16,7 +16,9 @@
   "keywords": [
     "hexo",
     "short",
-    "link"
+    "link",
+    "shortlink",
+    "permalink"
   ],
   "author": "autre",
   "license": "MIT",
