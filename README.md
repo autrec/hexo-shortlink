@@ -20,6 +20,7 @@ permalink: :shortlink.html
 
 The generated link will look like the following:
 
+### version 1.0
 ```
 source: _posts/books/a-book.md
 permalink: /books/261f97f7.html
@@ -30,24 +31,27 @@ permalink: /b1d4025b.html
 source: _posts/books/computer/a-book.md
 permalink: /books/computer/261f97f7.html
 ```
-
-## Customize permalink
-
-Set shortlink in front-matter, example:
-
+### version 2.0
+need set config :
 ```
----
-title: 'hello word'
-shortlink: myshortlink
----
+shortlink:
+  include: open/share,books # more than one used "," split
 ```
-
-The permalink will look like the following:
-
 ```
-/myshortlink.html
-/books/myshortlink.html
-/books/computer/myshortlink.html
+source: _posts/hello-word.md
+permalink: /b1d4025b.html
+
+source: _posts/open/share/a-book.md
+permalink: /open/share/261f97f7.html
+
+source: _posts/open/a-book.md
+permalink: /261f97f7.html
+
+source: _posts/books/a-book.md
+permalink: /books/261f97f7.html
+
+source: _posts/books/computer/a-book.md
+permalink: /261f97f7.html
 ```
 
 ## ThanksFor
